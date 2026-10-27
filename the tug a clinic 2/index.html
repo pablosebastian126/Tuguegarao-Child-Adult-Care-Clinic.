@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tuguegarao Child &amp; Adult Care Clinic</title>
+  <meta name="description" content="Doctors and consultation schedules at Tuguegarao Child & Adult Care Clinic, Bonifacio St. corner Zamora St., Centro 1, Tuguegarao City.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Tuguegarao Child &amp; Adult Care Clinic, home">
+        <img src="images/logo.jpg" alt="" width="56" height="56">
+        <span class="brand-name">Tuguegarao Child <span class="amp">&amp;</span> Adult Care Clinic</span>
+      </a>
+      <nav aria-label="Main">
+        <a href="#today">Who's in</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#visit">Visit us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="wrap">
+        <h1>Find your doctor,<br>and when to see them.</h1>
+        <p class="lead">Pediatrics, internal medicine, OB-GYN, ENT and surgery under one roof in Centro 1, Tuguegarao City.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:+639175193728" id="callBtn">Call 0917 519 3728</a>
+          <a class="btn btn-ghost" href="#today">See who's in today</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="today" class="wrap section">
+      <h2>Who's in</h2>
+      <div class="day-tabs" role="tablist" aria-label="Choose a day"></div>
+      <div id="dayResults" class="day-results" role="tabpanel" aria-live="polite"></div>
+      <p class="note">Schedules are posted by the clinic and may change. Please call <a href="tel:3960905">396-0905</a> to confirm before you go.</p>
+    </section>
+
+    <section id="doctors" class="wrap section">
+      <h2>Our doctors</h2>
+      <div class="filters" role="group" aria-label="Filter by specialty"></div>
+      <div id="doctorGrid" class="doctor-grid"></div>
+    </section>
+
+    <section id="visit" class="visit">
+      <div class="wrap visit-inner">
+        <div>
+          <h2>Visit us</h2>
+          <address>
+            Bonifacio St., corner Zamora St.,<br>
+            Centro 1, Tuguegarao City 3500
+          </address>
+          <p class="visit-links">
+            <a href="tel:3960905">Landline 396-0905</a><br>
+            <a href="tel:+639175193728">Mobile 0917 519 3728</a><br>
+            <a href="https://facebook.com/TuguegaraoChild&AdultCareClinic" target="_blank" rel="noopener">Message us on Facebook</a>
+          </p>
+        </div>
+        <a class="btn btn-light" target="_blank" rel="noopener"
+           href="https://www.google.com/maps/search/?api=1&query=Bonifacio+St+corner+Zamora+St+Centro+1+Tuguegarao+City">Open in Google Maps</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© <span id="year"></span> Tuguegarao Child &amp; Adult Care Clinic</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
